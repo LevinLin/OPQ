@@ -1,0 +1,20 @@
+// opqschema.fbs
+namespace messages;
+
+table Message {
+   url:string;
+   body:[Body];
+   header:[Header];
+}
+
+table Body {
+   key:string;
+   value:string;
+}
+
+table Header {
+   key:string;
+   value:string;
+}
+
+root_type Message;
