@@ -3,7 +3,7 @@
 * Code is tested under go1.4.2 and go1.7.3
 ## Install
 ### Download source code
-```shell
+```console
 go get -u github.com/LevinLin/OPQ
 ```
 ### Build OPQ
