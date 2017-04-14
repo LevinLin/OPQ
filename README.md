@@ -7,12 +7,12 @@
 go get -u github.com/LevinLin/OPQ
 ```
 ### Build OPQ
-```shell
+```console
 cd /path/to/OPQ
 go build
 ```
 ### Run OPQ
-```shell
+```console
 cd /path/to/OPQ
 nohup ./OPQ &>/dev/null &
 ```
