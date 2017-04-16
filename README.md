@@ -29,7 +29,5 @@ Listening port, default to 8999
 System log name, default to system.log
 ```
 #### `-admin` 
-```console
-Enable admin portal when given admin=yes, default to no *(TODO, not available yet)*
-```
+> Enable admin portal when given admin=yes, default to no **(TODO, not available yet)**
 
