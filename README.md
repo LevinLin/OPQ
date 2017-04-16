@@ -17,7 +17,7 @@ cd /path/to/OPQ
 nohup ./OPQ &>/dev/null &
 ```
 #### `-debug`
->> System runs in debug model when given debug=yes, which will enable log/output in debug level, default to no
+> System runs in debug model when given debug=yes, which will enable log/output in debug level, default to no
 #### `-port`
 > Listening port, default to 8999
 #### `-syslog`
