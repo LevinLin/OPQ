@@ -5,7 +5,7 @@
   1.persistent message storage  
   2.push model - push message to target service and block when failure  
   3.easy to use - simple API whith HTTP POST method, no addtional client integration is required  
-  4.message replay 
+  4.message replay  
   5.high performance aimed  
   6.operations-friendly
   
