@@ -1,6 +1,6 @@
 # OPQ
 * An **O**pen sourced **P**ersistent message **Q**ueue  
-* Code is tested under go1.4.2 and go1.7.3
+* Code is tested under go1.4.2
 * **features**  
   1.persistent message storage  
   2.push model - push message to target service and block when failure  
