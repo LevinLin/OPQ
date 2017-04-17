@@ -1,7 +1,7 @@
 # OPQ
 * An **O**pen sourced **P**ersistent message **Q**ueue  
 * Code is tested under go1.4.2 **(CAUTION: OPQ hasn't been tested in production environment so far)**
-* **features**  
+* **Features**  
   1.persistent message storage  
   2.push model - push message to target service and block when failure  
   3.easy to use - simple API whith HTTP POST method, no addtional client integration is required  
