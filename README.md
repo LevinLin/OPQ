@@ -1,12 +1,12 @@
 # OPQ
 * An Open sourced Persistent message Queue  
 * Code is tested under go1.4.2 and go1.7.3
-* **features**
-  1.persistent message storage
-  2.push model - push message to target service and block when failure
-  3.easy to use through simple API whith HTTP POST method, no addtional client integration is needed
-  4.replay message
-  5.high performance aimed
+* **features**  
+  1.persistent message storage  
+  2.push model - push message to target service and block when failure  
+  3.easy to use through simple API whith HTTP POST method, no addtional client integration is needed  
+  4.replay message  
+  5.high performance aimed  
   6.operations-friendly
   
 ## Install
