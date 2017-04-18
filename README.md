@@ -37,9 +37,9 @@ nohup ./OPQ &>/dev/null &
 > Enable admin portal when given admin=yes, default to no **(TODO, not available yet)**
 
 ## Usage
-* **Push Message**  
+**Push Message**  
 | Url  | Method  | Parameter |  
 | :----: | :----: | :----:  |  
 |http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push |||
-* **Replay Message**
+**Replay Message**
   http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/replay
