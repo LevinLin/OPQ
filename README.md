@@ -37,7 +37,12 @@ nohup ./OPQ &>/dev/null &
 > Enable admin portal when given admin=yes, default to no **(TODO, not available yet)**
 
 ## Usage
-**Push Message**  
-| Url           | Method        | Parameter        || :--------:    | :-----------: | :-------------:  ||http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push |||
-**Replay Message**
+* **Push Message**  
+  url: http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push
+  post fields: 
+  1.url: target url
+  2.topic: each message should belong to a topic
+  3.message: message content
+  header: specify the header if you need
+* **Replay Message**
   http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/replay
