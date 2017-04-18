@@ -42,7 +42,28 @@ nohup ./OPQ &>/dev/null &
   **post fields**:  
   1.**url**: target url  
   2.**topic**: each message should belong to a topic    
-  3.**message**: message content
-  **header**: specify the header if you need
+  3.**message**: message content  
+  **header**: specify the header if you need  
+  **example**:(PHP)  
+  ```php   
+  <?php
+    $url = "http://localhost:8999/opq/push";
+    
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_POST, 1);
+
+    $data = array(
+        'url' => 'http://127.0.0.1/Comment/addComment?comment=nny&user=q18',
+        'topic'=> 'comment',
+        'message'=> 'this is message body',
+    );
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+
+    $response = curl_exec($ch);
+    var_dump($response);
+    curl_close($ch);
+  ```
 * **Replay Message**
   http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/replay
