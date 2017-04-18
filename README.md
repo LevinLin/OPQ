@@ -38,13 +38,7 @@ nohup ./OPQ &>/dev/null &
 
 ## Usage
 **Push Message**  
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-|Url|Method|Parameter|
-| :----: | :----: | :----:  |
-|http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push |||
+| Url           | Method        | Parameter        |  
+| :--------:    | :-----------: | :-------------:  ||http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push |||
 **Replay Message**
   http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/replay
