@@ -38,7 +38,6 @@ nohup ./OPQ &>/dev/null &
 
 ## Usage
 **Push Message**  
-| Url           | Method        | Parameter        |  
-| :--------:    | :-----------: | :-------------:  ||http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push |||
+| Url           | Method        | Parameter        || :--------:    | :-----------: | :-------------:  ||http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push |||
 **Replay Message**
   http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/replay
