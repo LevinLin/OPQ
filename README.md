@@ -9,7 +9,8 @@
   5.high performance aimed  
   6.operations-friendly
 * **Performance**  
-  over 30,000(Message/Second) with 2K(Byte) message payload 
+  1.over 20,000(Message/Second) with 2K(Byte) message payload  
+  2.over 30,000(Message/Second) with 1K(Byte) message payload
  
 ## Install
 ### Download source code
@@ -35,3 +36,9 @@ nohup ./OPQ &>/dev/null &
 #### ~`-admin`~
 > Enable admin portal when given admin=yes, default to no **(TODO, not available yet)**
 
+## Usage
+* **Push Message**
+  | Url  | Method  | Parameter |
+  |http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push |
+* **Replay Message**
+  http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/replay
