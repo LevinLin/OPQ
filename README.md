@@ -65,5 +65,27 @@ nohup ./OPQ &>/dev/null &
     var_dump($response);
     curl_close($ch);
   ```
-* **Replay Message**
-  http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/replay
+* **Replay Message**  
+  **url**: http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/replay  
+  **post fields**:  
+  1.**topic**: topic name  
+  2.**cmd**: commond number (message index, start from 0)       
+  **example**:(PHP)  
+  ```php   
+  <?php
+    $url = "http://localhost:8999/opq/replay";
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
+    curl_setopt($ch, CURLOPT_POST, 1); 
+    
+    $data = array(
+        'topic'=> 'comment',
+        'cmd'=> '30',
+    );  
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+
+    $response = curl_exec($ch);
+    var_dump($response);
+    curl_close($ch);
+  ```
