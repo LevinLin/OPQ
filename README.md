@@ -8,7 +8,9 @@
   4.message replay  
   5.high performance aimed  
   6.operations-friendly
-  
+* **Performance**  
+  over 30,000(Message/Second) with 2K(Byte) message payload 
+ 
 ## Install
 ### Download source code
 ```console
