@@ -38,11 +38,11 @@ nohup ./OPQ &>/dev/null &
 
 ## Usage
 * **Push Message**  
-  url: http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push
-  post fields: 
-  1.url: target url
-  2.topic: each message should belong to a topic
-  3.message: message content
-  header: specify the header if you need
+  **url**: http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push  
+  **post fields**:  
+  1.**url**: target url  
+  2.**topic**: each message should belong to a topic    
+  3.**message**: message content
+  **header**: specify the header if you need
 * **Replay Message**
   http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/replay
