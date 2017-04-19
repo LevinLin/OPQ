@@ -7,7 +7,7 @@
   3.easy to use - simple API whith HTTP POST method, no addtional client integration is required  
   4.message replay  
   5.high performance aimed  
-  6.operations-friendly
+  6.operations-friendly - graceful stop/restart, HA (TODO)
 * **Performance**  
   1.over 20,000(Message/Second) with 2K(Byte) message payload  
   2.over 30,000(Message/Second) with 1K(Byte) message payload
