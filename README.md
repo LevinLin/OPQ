@@ -35,7 +35,10 @@ nohup ./OPQ &>/dev/null &
 > System log name, default to system.log
 #### ~`-admin`~
 > Enable admin portal when given admin=yes, default to no **(TODO, not available yet)**
-
+### Gracefully restart OPQ
+```console
+kill -1 %{PID}
+```
 ## Usage
 * **Push Message**  
   **url**: http://%{SERVER_NAME}[:%{SERVER_PORT}]/opq/push  
