@@ -12,7 +12,7 @@
   1.over **20,000**(Message/Second) with 2K(Byte) message payload  
   2.over **30,000**(Message/Second) with 1K(Byte) message payload
   
-  3.over **60,000**(Message/Second) with 128K(Byte) message payload
+  3.over **60,000**(Message/Second) with 128(Byte) message payload
  
 ## Install
 ### Download source code
