@@ -1,4 +1,6 @@
 # OPQ
+## About the design
+### https://github.com/LevinLin/The-design-of-OPQ
 * An **O**pen sourced **P**ersistent message **Q**ueue  
 * Code is tested under go1.4.2 **(CAUTION: OPQ hasn't been tested in production environment so far)**
 * **Features**  
