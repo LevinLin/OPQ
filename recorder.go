@@ -34,7 +34,7 @@ SOFTWARE.
 package main
 
 import (
-	messages "OPQ/messages"
+	messages "github.com/LevinLin/OPQ/messages"
 	"bufio"
 	"encoding/binary"
 	//"fmt"
